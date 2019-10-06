@@ -1,0 +1,166 @@
+
+
+<nav class="navbar navbar-expand-lg text-uppercase fixed-top" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand js-scroll-trigger" href="#sectionPres">Maëlle Manifacier</a>
+      
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item mx-0 mx-lg-1">
+            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#competences">Compétences</a>
+          </li>
+          <li class="nav-item mx-0 mx-lg-1">
+            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+
+
+    <!-- Intro -->
+    <div id="sectionPres" class="elements">
+        <img src="assets/img/sky2.jpg" alt="Snow" style="width:100%;">
+        <div class="elementImageAccueil">
+          <div id="presTop">
+            <div id="bouton1"></div>
+            <div id="bouton2"></div>
+            <div id="bouton3"></div>
+          </div>
+          <div id="presBottom">
+            <h1>A propos</h1>
+            <p>Etudiante en licence professionnelle développement web à l'IUT de Clermont-Ferrand</p>
+            <p>Ce portfolio a pour but de présenter plusieurs des projets informatiques sur lesquels j'ai eu l'occasion de travailler</p>
+            <p>Pour voir certains de ces projets, rendez-vous sur ma page github ! 
+              <a href="https://github.com/MaelManifacier" style="color: #F83939">here</a>
+            </p>
+          </div>
+        </div>
+    </div>
+
+
+
+
+  <!-- Compétences -->
+  <div id="competences">
+    <div class="container">
+        <app-stars style="opacity: 1; z-index: 3"></app-stars>
+        <div class="row" style="padding-top: 15%">
+            <!-- Portfolio Item 1 -->
+            <div class="col-md-6 col-lg-4">
+                <div class="card">
+                    <div class="card-header">
+                        <h5>Conception</h5>
+                    </div>
+                </div>
+            </div>
+  
+            <!-- Portfolio Item 2 -->
+            <div class="carte col-md-6 col-lg-4">
+                <div class="card">
+                    <div class="card-header">
+                        <h5>Développement web</h5>
+                    </div>
+                </div>
+            </div>
+  
+            <!-- Portfolio Item 3 -->
+            <div class="carte col-md-6 col-lg-4">
+                <div class="card">
+                    <div class="card-header">
+                        <h5>fxml / ASP.NET</h5>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Portfolio Item 4 -->
+            <div class="carte col-md-6 col-lg-4">
+              <div class="card">
+                  <div class="card-header">
+                      <h5>C / C# / Java / Golang</h5>
+                  </div>
+              </div>
+          </div>
+
+          <!-- Portfolio Item 5 -->
+          <div class="carte col-md-6 col-lg-4">
+            <div class="card">
+                <div class="card-header">
+                    <h5>HTML / CSS / Angular</h5>
+                </div>
+            </div>
+          </div>
+
+          <!-- Portfolio Item 6 -->
+          <div class="carte col-md-6 col-lg-4">
+            <div class="card">
+              <div class="card-header">
+                <h5>UML / Design Patterns</h5>
+              </div>
+            </div>
+          </div>
+
+        </div> <!-- fin row -->
+
+        <a id="boutonDetails" [routerLink]="[ '/details' ]">PLUS DE DETAILS 
+        <fa-icon [icon]="['fab', 'qq']"></fa-icon>
+        </a>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+  <!-- Footer -->
+  <footer id="contact" class="footer text-center">
+        <div class="container">
+          <div class="row">
+    
+            <!-- Footer Location -->
+            <div class="col-lg-4 mb-5 mb-lg-0">
+              <h4 class="text-uppercase mb-4">Adresse</h4>
+              <p class="lead mb-0">31 rue de Riom
+                <br>63310, Randan</p>
+            </div>
+    
+            <!-- Footer Social Icons -->
+            <div class="col-lg-4 mb-5 mb-lg-0">
+              <h4 class="text-uppercase mb-4">Github / LinkedIn</h4>
+              <a class="btn btn-lg btn-outline-light btn-social mx-1" href="https://github.com/MaelManifacier">
+                <fa-icon [icon]="['fab', 'github']"></fa-icon>
+              </a>
+              <a class="btn btn-lg mx-1">
+                <fa-icon [icon]="['fab', 'angular']"></fa-icon>
+              </a>
+              <a class="btn btn-lg btn-outline-light btn-social mx-1" href="https://www.linkedin.com/in/maëlle-manifacier-871343174">
+                <fa-icon [icon]="['fab', 'linkedin']"></fa-icon>
+              </a>
+            </div>
+    
+            <!-- Footer About Text -->
+            <div class="col-lg-4">
+              <h4 class="text-uppercase mb-4">Contact</h4>
+              <p class="lead mb-0">maelle.manifacier@etu.uca.fr
+                <!--<a href="http://startbootstrap.com">Start Bootstrap</a>.-->
+            </p>
+            </div>
+    
+          </div>
+        </div>
+      </footer>
+    
+      <!-- Copyright Section -->
+      <section id="footer" class="py-4 text-center text-white">
+        <div class="container">
+          <small>Réalisé avec angular 8</small>
+        </div>
+      </section>

@@ -1,0 +1,139 @@
+section .star {
+  width: 5px;
+  height: 5px;
+  border-radius: 100%;
+  background-color: rgba(255, 255, 255, 0.438);
+  position: absolute;
+}
+
+#s1 {
+  top: 7%;
+  left: 50%;
+  width: 3px;
+  height: 3px;
+}
+
+#s2 {
+  top: 90%;
+  left: 37%;
+  width: 3px;
+  height: 3px;
+}
+
+#s3 {
+  top: 85%;
+  left: 80%;
+  width: 3px;
+  height: 3px;
+}
+
+#s4 {
+  top: 65%;
+  left: 10%;
+}
+
+#s5 {
+  top: 40%;
+  left: 90%;
+}
+
+#s6 {
+  top: 17%;
+  left: 30%;
+  width: 2px;
+  height: 2px;
+}
+
+#s7 {
+  top: 45%;
+  left: 45%;
+  width: 2px;
+  height: 2px;
+}
+
+#s8 {
+  top: 80%;
+  left: 15%;
+  width: 3px;
+  height: 3px;
+}
+
+#s9 {
+  top: 50%;
+  left: 80%;
+  width: 2px;
+  height: 2px;
+}
+
+#s10 {
+  top: 30%;
+  left: 85%;
+  width: 2px;
+  height: 2px;
+}
+
+#s6 {
+  top: 30%;
+  left: 40%;
+  width: 3px;
+  height: 3px;
+}
+
+#s7 {
+  top: 20%;
+  left: 55%;
+  width: 2px;
+  height: 2px;
+}
+
+#s8 {
+  top: 60%;
+  left: 35%;
+  width: 3px;
+  height: 3px;
+}
+
+#s9 {
+  top: 30%;
+  left: 75%;
+  width: 2px;
+  height: 2px;
+}
+
+#s10 {
+  top: 17%;
+  left: 80%;
+  width: 3px;
+  height: 3px;
+}
+
+#s16 {
+  top: 23%;
+  left: 20%;
+  width: 3px;
+  height: 3px;
+}
+
+#s1, #s2, #s3, #s4, #s5 {
+  animation: twinkle 2s infinite;
+}
+
+#s6, #s7, #s8, #s9, #s10 {
+  animation: twinkle 1s infinite;
+}
+
+#s16 {
+  animation: twinkle 0.9s infinite;
+}
+
+@keyframes twinkle {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.2;
+  }
+  100% {
+    opacity: 1;
+  }
+}
